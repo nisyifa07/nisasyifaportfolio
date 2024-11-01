@@ -18,7 +18,7 @@ export default function Skills() {
         <SkillList src={reactIcon} skill="ReactJS"/>
         <SkillList src={phpIcon} skill="PHP"/>
         <SkillList src={bootstrapIcon} skill="Bootstrap CSS"/>
-        <hr /></div>
+        </div><hr />
         
     </section>
   )
