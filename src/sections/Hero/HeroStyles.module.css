@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     display: flex;
     flex-direction: column;
@@ -98,4 +99,106 @@ cursor: pointer;
         max-width: 400px;
         width: 400px;
     }}
+=======
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+
+    .hero{
+        max-width: 280px;
+    }
+    span{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    a{
+        margin: 0;
+        img{
+            width: 30px;
+        }
+    }
+
+    button{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        width: 126px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    }
+
+    button:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+    }
+    button:active{
+        transform: translateY(2px);
+        -webkit-transform: translateY(2px);
+        -moz-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+        -o-transform: translateY(2px);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.colorModeContainer{
+   
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.colorMode{
+    position: absolute;
+    
+}
+
+.colorMode:hover{
+cursor: pointer;
+}
+
+.description{
+    max-width: 30ch;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+@media (width >= 800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .hero{
+        max-width: 390px;
+        width: 390px;
+    }
+}
+
+@media (width >= 1400px) {
+    .container {
+    .hero{
+        max-width: 400px;
+        width: 400px;
+    }}
+>>>>>>> 67ff116ac0dd547a970971dabd59ad2a8a45f33b
 }

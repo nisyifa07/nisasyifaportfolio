@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .container {
     text-align: center;
     p{
         font-size: 16px;
         color: var(--text-color);
     }
+=======
+.container {
+    text-align: center;
+    p{
+        font-size: 16px;
+        color: var(--text-color);
+    }
+>>>>>>> 67ff116ac0dd547a970971dabd59ad2a8a45f33b
 }
